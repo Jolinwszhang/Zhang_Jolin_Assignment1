@@ -1,6 +1,6 @@
 html {
-  font-family: 'Raleway', sans-serif;
-  background-color: yellow;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: skyblue;
   font-size: 10px;
 }
 
@@ -10,7 +10,7 @@ body {
   }
 
   h1,h2 {
-  font-family:'Cherry Swash', cursive;
+  font-family:'Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif';
   text-align:center;
   margin:0;
   }
@@ -21,7 +21,7 @@ body {
 
   h2 {
   font-size:2rem;
-  color:#FF0;
+  color:lightskyblue;
   text-align:right;
   width:160px;
   position:absolute;
@@ -33,7 +33,7 @@ body {
   }
 
   .error_message {
-  color: #fffb00;
+  color: blue;
   }
 
   p,label,input,select,button,li {
@@ -97,7 +97,7 @@ body {
   input {
   background:#000;
   box-shadow:inset 1px 1px 1px #FFF;
-  color:#FF0;
+  color:lightblue;
   border:none;
   width:201.5px;
   padding:5px;
@@ -105,7 +105,7 @@ body {
 
   button {
   background:#000;
-  color:#FF0;
+  color:lightblue;
   border:none;
   border-radius:10px;
   box-shadow:inset 1px 1px 2px white, inset -1px -1px 2px #ccc;
@@ -121,21 +121,22 @@ body {
   }
 
   section img {
-  width:100%;
+  width:200px;
+  height: 200px;
   display:block;
   position:absolute;
   bottom:0;
   }
 
   section p {
-  color:#FF0;
+  color:lightskyblue;
   background:#000;
   width:50px;
   height:50px;
   line-height:50px;
   text-align:center;
   border-radius:50%;
-  box-shadow:2px 2px 1px #FF0;
+  box-shadow:2px 2px 1px blue;
   position:absolute;
   right:10px;
   bottom:-6px;
@@ -145,7 +146,7 @@ body {
   input {
     background: black;
     box-shadow: inset 1px 1px 1px white;
-    color: yellow;
+    color: skyblue;
     border: none;
     padding: 5px;
     width: 201.5px;
@@ -158,7 +159,7 @@ body {
     height: 50px;
     line-height: 50px;
     text-align: center;
-    box-shadow: 2px 2px 1px yellow;
+    box-shadow: 2px 2px 1px blue;
     position: absolute;
     right: 10px;
     bottom: 80px;

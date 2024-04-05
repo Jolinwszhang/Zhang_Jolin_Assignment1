@@ -1,74 +1,74 @@
 [
   {
-    "name" : "baked beans",
+    "name" : "9'0 Blue",
     "price" : 0.40,
-    "image" : "beans.jpg",
-    "type" : "vegetables"
+    "image" : "blue.jpg",
+    "type" : "surfboard"
   },
   {
-    "name" : "hot dogs",
+    "name" : "9'0 Flower Pink",
     "price" : 1.99,
-    "image" : "hotdogs.jpg",
+    "image" : "flowerpink.jpg",
     "type" : "meat"
   },
   {
-    "name" : "spam",
+    "name" : "9'4 Green",
     "price" : 2.85,
-    "image" : "spam.jpg",
+    "image" : "green.jpg",
     "type" : "meat"
   },
   {
-    "name" : "refried beans",
+    "name" : "9'10 Squid Ink",
     "price" : 0.99,
-    "image" : "refried.jpg",
+    "image" : "ink.jpg",
     "type" : "vegetables"
   },
   {
-    "name" : "kidney beans",
+    "name" : "9'4 Marble Green",
     "price" : 0.58,
-    "image" : "kidney.jpg",
+    "image" : "marblegreen.jpg",
     "type" : "vegetables"
   },
   {
-    "name" : "garden peas",
+    "name" : "9'1 Marble Pink",
     "price" : 0.52,
-    "image" : "gardenpeas.jpg",
+    "image" : "marblepink.jpg",
     "type" : "vegetables"
   },
   {
-    "name" : "mushy peas",
+    "name" : "9'0 Neon Twins",
     "price" : 0.58,
-    "image" : "mushypeas.jpg",
+    "image" : "neonpink.jpg",
     "type" : "vegetables"
   },
   {
-    "name" : "corned beef",
+    "name" : "9'4 White",
     "price" : 2.39,
-    "image" : "cornedbeef.jpg",
+    "image" : "white.jpg",
     "type" : "meat"
   },
   {
-    "name" : "tomato soup",
+    "name" : "5'0 Mini Purple",
     "price" : 1.40,
-    "image" : "tomatosoup.jpg",
+    "image" : "minipurple.jpg",
     "type" : "soup"
   },
   {
-    "name" : "chopped tomatoes",
+    "name" : "9'2 Hot Blue",
     "price" : 0.45,
-    "image" : "tomato.jpg",
+    "image" : "blue1.jpg",
     "type" : "vegetables"
   },
   {
-    "name" : "chicken noodle soup",
+    "name" : "9'3 Hot Yellow",
     "price" : 1.89,
-    "image" : "chickennoodle.jpg",
+    "image" : "yellow.jpg",
     "type" : "soup"
   },
   {
-    "name" : "carrot and coriander soup",
+    "name" : "9'6 Rainbow Pink",
     "price" : 1.49,
-    "image" : "carrotcoriander.jpg",
+    "image" : "rainbow.jpg",
     "type" : "soup"
   }
 ]
