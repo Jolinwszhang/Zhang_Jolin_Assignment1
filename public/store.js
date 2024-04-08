@@ -46,6 +46,7 @@ function myFunction() {
   }
 }
 
+  } else if (!Number.isInteger(quantityNumber)) {
 
 function display_products() {
   for (i = 0; i < products.length; i++) {
