@@ -21,6 +21,7 @@ window.onload = async function () {
     if (response.ok) {
       response.json().then(function (json) {
         products = json;
+        console.log(products);
         display_products();
       });
     } else {
@@ -45,9 +46,25 @@ function myFunction() {
     }
   }
 }
+function validateQuantity(quantity) {
+  let valMessage = '';
+  const quantityNumber = Number(quantity.value);
+  const productId = quantity.getAttribute('data-product-id'); // Assuming you have a data-product-id attribute to identify the product
 
+  if (isNaN(quantityNumber)) {
+    valMessage = "Please enter a number!";
+  } else if (quantityNumber < 0 && !Number.isInteger(quantityNumber)) {
+    valMessage = "Please enter a positive integer!";
+  } else if (quantityNumber < 0) {
+    valMessage = "Please enter a positive number value!";
   } else if (!Number.isInteger(quantityNumber)) {
+    valMessage = "Please enter an integer!";
+  } else if (quantityNumber > products[productId].quantity_available) {
+    valMessage = "Quantity exceeds available inventory!";
+  }
 
+  return valMessage;
+}
 function display_products() {
   for (i = 0; i < products.length; i++) {
     let quantity_label = 'Quantity';
@@ -63,6 +80,7 @@ function display_products() {
 <section class="item">
                 <h2>${products[i].name}</h2>
                 <p>$${products[i].price}</p>
+                <h3> Quantity Available: ${products[i].quantity_available}</h3>
                 <label>${quantity_label}</label>
                 <input type="text" placeholder="0" name="quantity_textbox[${i}]" value="${quantity}">
                 <img src="./images/${products[i].image}">
