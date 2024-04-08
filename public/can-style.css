@@ -9,7 +9,7 @@ body {
   margin:0 auto;
   }
 
-  h1,h2 {
+  h1,h2,h3 {
   font-family:'Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif';
   text-align:center;
   margin:0;
@@ -30,6 +30,18 @@ body {
   text-shadow:2px 2px 1px #000;
   line-height:2rem;
   padding-top:.3rem;
+  }
+  h3 {
+    font-size: 1.3rem;
+    color: rgb(250, 106, 224);
+    text-align: right;
+    width: 160px;
+    position: relative;
+    right: -50%;
+    z-index: 3000;
+    text-shadow: 2px 2px 1px black;
+    line-height: 2rem;
+    padding-top: 2rem;
   }
 
   .error_message {
