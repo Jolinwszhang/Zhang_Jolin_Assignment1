@@ -9,6 +9,7 @@ if (params.has('errors')) {
   // get the quantities also to insert into the form to make sticky
   quantities = JSON.parse(params.get('quantities'));
   // Put up an alert box if there are errors
+  // <modify code here to put up an alert if your have an error in errors indicating no quantities were selected>
   alert('Please fix the errors in the form and resubmit');
 }
 
@@ -21,7 +22,6 @@ window.onload = async function () {
     if (response.ok) {
       response.json().then(function (json) {
         products = json;
-        console.log(products);
         display_products();
       });
     } else {
@@ -46,30 +46,15 @@ function myFunction() {
     }
   }
 }
-function validateQuantity(quantity) {
-  let valMessage = '';
-  const quantityNumber = Number(quantity.value);
-  const productId = quantity.getAttribute('data-product-id'); // Assuming you have a data-product-id attribute to identify the product
 
-  if (isNaN(quantityNumber)) {
-    valMessage = "Please enter a number!";
-  } else if (quantityNumber < 0 && !Number.isInteger(quantityNumber)) {
-    valMessage = "Please enter a positive integer!";
-  } else if (quantityNumber < 0) {
-    valMessage = "Please enter a positive number value!";
-  } else if (!Number.isInteger(quantityNumber)) {
-    valMessage = "Please enter an integer!";
-  } else if (quantityNumber > products[productId].quantity_available) {
-    valMessage = "Quantity exceeds available inventory!";
-  }
 
-  return valMessage;
-}
 function display_products() {
-  for (i = 0; i < products.length; i++) {
+  // loop through the products array and display each product as a section element
+  for (let i = 0; i < products.length; i++) {
     let quantity_label = 'Quantity';
+    // if there is an error with this quantity, put it in the label to display it
     if( (typeof errors['quantity'+i]) != 'undefined' ) {
-      quantity_label = `<font class="error_message">${errors['quantity'+i].join('<br>')}</font>`;
+      quantity_label = `<font class="error_message">${errors['quantity'+i]}</font>`;
     }
     let quantity = 0;
     // put previous quantity in textbox if it exists
@@ -78,9 +63,8 @@ function display_products() {
     }
     products_main_display.innerHTML += `
 <section class="item">
-                <h2>${products[i].name}</h2>
+                <h2>${products[i].brand}</h2>
                 <p>$${products[i].price}</p>
-                <h3> Quantity Available: ${products[i].quantity_available}</h3>
                 <label>${quantity_label}</label>
                 <input type="text" placeholder="0" name="quantity_textbox[${i}]" value="${quantity}">
                 <img src="./images/${products[i].image}">

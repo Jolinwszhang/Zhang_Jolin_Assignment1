@@ -1,74 +1,87 @@
 [
   {
-    "name" : "9'0 Blue",
-    "price" : 0.40,
-    "image" : "blue.jpg",
-    "type" : "surfboard"
+    "name" : "9'0 Flower Pink",
+    "price" : 1.99,
+    "image" : "blue4.jpg",
+    "type" : "meat",
+    "quantity_available": 4
   },
   {
     "name" : "9'0 Flower Pink",
     "price" : 1.99,
     "image" : "flowerpink.jpg",
-    "type" : "meat"
+    "type" : "meat",
+    "quantity_available": 4
   },
   {
     "name" : "9'4 Green",
     "price" : 2.85,
     "image" : "green.jpg",
-    "type" : "meat"
+    "type" : "meat",
+    "quantity_available": 4
   },
   {
     "name" : "9'10 Squid Ink",
     "price" : 0.99,
     "image" : "ink.jpg",
-    "type" : "vegetables"
+    "type" : "vegetables",
+    "quantity_available": 4
   },
   {
     "name" : "9'4 Marble Green",
     "price" : 0.58,
     "image" : "marblegreen.jpg",
-    "type" : "vegetables"
+    "type" : "vegetables",
+    "quantity_available": 4
   },
   {
     "name" : "9'1 Marble Pink",
     "price" : 0.52,
     "image" : "marblepink.jpg",
-    "type" : "vegetables"
+    "type" : "vegetables",
+    "quantity_available": 4
   },
   {
     "name" : "9'0 Neon Twins",
     "price" : 0.58,
     "image" : "neonpink.jpg",
-    "type" : "vegetables"
+    "type" : "vegetables",
+    "quantity_available": 4
+    
   },
   {
     "name" : "9'4 White",
     "price" : 2.39,
     "image" : "white.jpg",
-    "type" : "meat"
+    "type" : "meat",
+    "quantity_available": 4
   },
   {
     "name" : "5'0 Mini Purple",
     "price" : 1.40,
     "image" : "minipurple.jpg",
-    "type" : "soup"
+    "type" : "soup",
+    "quantity_available": 4
   },
   {
     "name" : "9'2 Hot Blue",
     "price" : 0.45,
     "image" : "blue1.jpg",
-    "type" : "vegetables"
+    "type" : "vegetables",
+    "quantity_available": 4
   },
   {
     "name" : "9'3 Hot Yellow",
     "price" : 1.89,
     "image" : "yellow.jpg",
-    "type" : "soup"
+    "type" : "soup",
+    "quantity_available": 4
   },
   {
     "name" : "9'6 Rainbow Pink",
     "price" : 1.49,
     "image" : "rainbow.jpg",
-    "type" : "soup"
+    "type" : "soup",
+    "quantity_available": 4
   }
 ]
