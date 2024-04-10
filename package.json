@@ -12,5 +12,14 @@
   "dependencies": {
     "body-parser": "^1.20.2",
     "express": "^4.19.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dport96/Port_Dan_Assignment1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dport96/Port_Dan_Assignment1/issues"
+  },
+  "homepage": "https://github.com/dport96/Port_Dan_Assignment1#readme"
 }
