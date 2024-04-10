@@ -16,7 +16,12 @@ h6,
 .w3-wide {
   font-family: "Montserrat", sans-serif;
 }
-
+.available {
+  color: green;
+}
+.sold {
+  color: red;
+}
 /* Style for product images */
 .w3-container {
   position: relative; /* Add this to make the container relative for absolute positioning of the quantity text box */

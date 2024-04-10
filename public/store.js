@@ -65,6 +65,7 @@ function display_products() {
 <section class="item">
                 <h2>${products[i].model}</h2>
                 <h4> In Stock ${products[i].quantity_available}</h4>
+                <h4> Sold ${products[i].quantity_sold}</h4>
                 <p>$${products[i].price}</p>
                 <label>${quantity_label}</label>
                 <input type="text" placeholder="0" name="quantity_textbox[${i}]" value="${quantity}">
