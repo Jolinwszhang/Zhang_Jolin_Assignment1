@@ -35,7 +35,7 @@
     "model": "5'8 Lean",
     "brand": "Meyers",
     "price": 945.00,
-    "image": "purple.png",
+    "image": "Purple.png",
     "quantity_available": 4,
     "quantity_sold": 9
   
@@ -45,7 +45,6 @@
     "brand": "Meyers",
     "price": 1325.00,
     "image": "green.png",
-
     "quantity_available": 4,
     "quantity_sold": 3
   },
@@ -54,7 +53,6 @@
     "brand": "Meyers",
     "price": 14500.00,
     "image": "blueblack.png",
-
     "quantity_available": 4,
     "quantity_sold": 10
 
@@ -65,7 +63,6 @@
     "brand": "Meyers",
     "price": 1350.00,
     "image": "whitewhite.png",
-
     "quantity_available": 4,
     "quantity_sold": 9
 
