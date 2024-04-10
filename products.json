@@ -84,5 +84,21 @@
     "quantity_available": 4,
     "quantity_sold": 1
 
+  },
+  {
+    "model": "9'2 R-Series",
+    "brand": "Degree 33",
+    "price": 699.00,
+    "image": "r-series.webp",
+    "quantity_available": 7,
+    "quantity_sold": 3
+  },
+  {
+    "model": "9'9 Hot Pink ",
+    "brand": "Hawaii Surf Board Factory",
+    "price": 1800,
+    "image": "hotpink.webp",
+    "quantity_available": 13,
+    "quantity_sold": 50
   }
 ]
