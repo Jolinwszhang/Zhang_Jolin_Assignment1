@@ -66,8 +66,13 @@ app.post('/process_purchase_form', function (req, res, next) {
     params.append('errors', JSON.stringify(errors));
     res.redirect('store.html?' + params.toString());
   } else {
+    for (let i = 0; i < quantities.length; i++) {
+      const quantitySold = Number(quantities[i]);
+      const product = products[i];
+      product.quantity_available -= quantitySold;
+      product.quantity_sold += quantitySold;
+    }
     // Reduce the quantities of each product purchased from the quantities available
-    // <add code here>
     res.redirect('./invoice.html?' + params.toString());
   }
 });
